@@ -29,7 +29,26 @@ p4.style.fontSize = '20 px';
 
 // TRAVERSING THE DOM
 const itemList = document.querySelector('#b');
+
 // Parent Node
-console.log(itemList.parentNode);
-itemList.parentNode.style.backgroundColor = '	#964B00';
-console.log(itemList.parentNode.parentNode);
+// console.log(itemList.parentNode);
+// itemList.parentNode.style.backgroundColor = '	#964B00';
+// console.log(itemList.parentNode.parentNode);
+
+// // Parent Element
+// console.log(itemList.parentElement);
+// itemList.parentElement.style.backgroundColor = '	#964B00';
+// console.log(itemList.parentElement.parentElement);
+
+// childnode
+// console.log(itemList.childNodes);
+
+// console.log(itemList.children);
+// console.log(itemList.children[1]);
+// itemList.children[1].style.backgroundColor = 'orange';
+
+// firstchild
+console.log(itemList.firstChild);
+// firstElementChild
+console.log(itemList.firstElementChild);
+itemList.firstElementChild.textContent = 'Programming';
