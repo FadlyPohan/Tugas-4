@@ -1,10 +1,10 @@
 // section 2-8
 // getElementById() – select an element by id.
 
-const judul = document.getElementById('judul');
-judul.style.color = 'brown';
-judul.style.backgroundColor = 'pink';
-judul.innerHTML = 'fadlyani pohan';
+// const judul = document.getElementById('judul');
+// judul.style.color = 'brown';
+// judul.style.backgroundColor = 'pink';
+// judul.innerHTML = 'fadlyani pohan';
 
 // getElementsByTagName() – select elements by name
 
@@ -14,7 +14,7 @@ for (let i = 0; i < p.length; i++) {
   p[i].style.color = 'white';
 }
 
-const h1 = document.getElementsByTagName('h1')[0];
+var h1 = document.getElementsByTagName('h1')[0];
 h1.style.fontWeight = 'bold';
 
 // getElementsByClassName()  – select elements by a tag name.
@@ -64,26 +64,57 @@ p4.style.fontSize = '20 px';
 // console.log(itemList.previousElementSibling);
 // itemList.previousElementSibling.style.color = 'purple';
 
-const newDiv = document.createElement('div');
+// const newDiv = document.createElement('div');
 
-// add Class
-newDiv.className = 'status';
+// // add Class
+// newDiv.className = 'status';
 
-// add id
-newDiv.id = 'single';
+// // add id
+// newDiv.id = 'single';
 
-// add atribut
-newDiv.setAttribute('title', 'Hello world');
+// // add atribut
+// newDiv.setAttribute('title', 'Hello world');
 
-// create text node
-const newDivText = document.createTextNode('Hello World');
+// // create text node
+// const newDivText = document.createTextNode('Hello World');
 
-newDiv.appendChild(newDivText);
+// newDiv.appendChild(newDivText);
 
-const container = document.querySelector('header .#container');
+// const container = document.querySelector('header #container');
 
-const h2 = document.querySelector('header, h2');
+// var h1 = document.querySelector('header h1');
 
-console.log(newDiv);
+// console.log(newDiv);
 
-container.insertBefore(newDiv, h2);
+// newDiv.style.fontSize = '20px'
+// container.insertBefore(newDiv, h1);
+
+// var button =document.getElementById('button').addEventListener('clik',buttonClik)
+
+// function buttonClik(e){
+//   console.log(e.target)
+//   console.log(e.target.id)
+//   console(e.target.className)
+// console.log(e.target.classList)
+// varoutput = document.getElementById('output')
+// output.innerHTML = '<h3>'+e.target.id+s'</h3>';
+// }
+
+// const div = document.createElement('div');
+// div.innerText = 'Hello Worl';
+// div.textContent = 'Hello Word 2';
+// body.append(div);
+
+// const div = document.querySelector('div');
+
+// console.log(div.textContent);
+// console.log(div.innerText);
+
+// const judul = document.getElementById('judul');
+// judul.innerHTML = '<em>Fadly Pohan</em>';
+
+const judul = document.getElementsByTagName('h1')[0];
+
+// setAtribute
+judul.setAttribute('name', 'fadly pohan');
+const a = document.querySelector('section#a a');
