@@ -48,7 +48,18 @@ const itemList = document.querySelector('#b');
 // itemList.children[1].style.backgroundColor = 'orange';
 
 // firstchild
-console.log(itemList.firstChild);
-// firstElementChild
-console.log(itemList.firstElementChild);
-itemList.firstElementChild.textContent = 'Programming';
+// console.log(itemList.firstChild);
+// // firstElementChild
+// console.log(itemList.firstElementChild );
+// itemList.firstElementChild.textContent = 'Programming';
+
+// nextSibling
+console.log(itemList.nextSibling);
+// nextElementSibling
+console.log(itemList.nextElementSibling);
+
+// previousSibling
+console.log(itemList.previousSibling);
+previousElementSiblig;
+console.log(itemList.previousElementSibling);
+itemList.previousElementSibling.style.color = 'purple';
