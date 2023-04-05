@@ -28,7 +28,7 @@ p4.style.color = 'red';
 p4.style.fontSize = '20 px';
 
 // TRAVERSING THE DOM
-const itemList = document.querySelector('#b');
+// const itemList = document.querySelector('#b');
 
 // Parent Node
 // console.log(itemList.parentNode);
@@ -54,12 +54,36 @@ const itemList = document.querySelector('#b');
 // itemList.firstElementChild.textContent = 'Programming';
 
 // nextSibling
-console.log(itemList.nextSibling);
-// nextElementSibling
-console.log(itemList.nextElementSibling);
+// console.log(itemList.nextSibling);
+// // nextElementSibling
+// console.log(itemList.nextElementSibling);
 
-// previousSibling
-console.log(itemList.previousSibling);
-previousElementSiblig;
-console.log(itemList.previousElementSibling);
-itemList.previousElementSibling.style.color = 'purple';
+// // previousSibling
+// console.log(itemList.previousSibling);
+// previousElementSiblig;
+// console.log(itemList.previousElementSibling);
+// itemList.previousElementSibling.style.color = 'purple';
+
+const newDiv = document.createElement('div');
+
+// add Class
+newDiv.className = 'status';
+
+// add id
+newDiv.id = 'single';
+
+// add atribut
+newDiv.setAttribute('title', 'Hello world');
+
+// create text node
+const newDivText = document.createTextNode('Hello World');
+
+newDiv.appendChild(newDivText);
+
+const container = document.querySelector('header .#container');
+
+const h2 = document.querySelector('header, h2');
+
+console.log(newDiv);
+
+container.insertBefore(newDiv, h2);
