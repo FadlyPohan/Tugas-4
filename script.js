@@ -113,8 +113,10 @@ p4.style.fontSize = '20 px';
 // const judul = document.getElementById('judul');
 // judul.innerHTML = '<em>Fadly Pohan</em>';
 
-const judul = document.getElementsByTagName('h1')[0];
+// const judul = document.getElementsByTagName('h1')[0];
 
-// setAtribute
-judul.setAttribute('name', 'fadly pohan');
-const a = document.querySelector('section#a a');
+// // setAtribute
+// judul.setAttribute('name', 'fadly pohan');
+// const a = document.querySelector('section#a a');
+
+const p2 = document.querySelector('.p2');
