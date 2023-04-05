@@ -27,5 +27,9 @@ const p4 = document.querySelector('#b p');
 p4.style.color = 'red';
 p4.style.fontSize = '20 px';
 
-const li2 = document.querySelector('section#b ul li: nth-child(3)');
-li2.style.backgroundColor = 'blue';
+// TRAVERSING THE DOM
+const itemList = document.querySelector('#b');
+// Parent Node
+console.log(itemList.parentNode);
+itemList.parentNode.style.backgroundColor = '	#964B00';
+console.log(itemList.parentNode.parentNode);
